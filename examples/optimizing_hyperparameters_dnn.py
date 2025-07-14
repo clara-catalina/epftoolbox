@@ -14,9 +14,15 @@ nlayers = 2
 
 # Market under study. If it not one of the standard ones, the file name
 # has to be provided, where the file has to be a csv file
-dataset = 'NP'
+'OG code'
+dataset = 'DE'
+'Replaced by'
+# dataset = 'rearranged_output_2015_2016'
 
 # Number of years (a year is 364 days) in the test dataset.
+'OG code'
+# years_test = 2
+'Replaced by'
 years_test = 2
 
 # Optional parameters for selecting the test dataset, if either of them is not provided, 
@@ -42,7 +48,10 @@ calibration_window = 4
 experiment_id = 1
 
 # Number of iterations for hyperparameter optimization
-max_evals = 1500
+'OG code'
+# max_evals = 1500
+'Replaced by'
+max_evals = 10
 
 path_datasets_folder = "./datasets/"
 path_hyperparameters_folder = "./experimental_files/"

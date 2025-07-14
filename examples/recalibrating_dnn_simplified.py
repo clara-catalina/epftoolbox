@@ -14,7 +14,10 @@ nlayers = 2
 
 # Market under study. If it not one of the standard ones, the file name
 # has to be provided, where the file has to be a csv file
-dataset = 'PJM'
+'OG code'
+# dataset = 'DE'
+'Replaced by'
+dataset = 'rearranged_output_2015_2016'
 
 # Number of years (a year is 364 days) in the test dataset.
 years_test = 2
@@ -41,8 +44,12 @@ experiment_id = 1
 # the test dataset is built using the years_test parameter. They should either be one of
 # the date formats existing in python or a string with the following format
 # "%d/%m/%Y %H:%M"
-begin_test_date = '27/12/2016'
-end_test_date = '01/03/2017'
+'OG code'
+# begin_test_date = '27/12/2016'
+# end_test_date = '01/03/2017'
+'Replaced by'
+begin_test_date = '01/12/2016'
+end_test_date = '21/12/2016'
 
 # Set up the paths for saving data (this are the defaults for the library)
 path_datasets_folder = os.path.join('.', 'datasets')
