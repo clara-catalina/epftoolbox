@@ -17,7 +17,7 @@ nlayers = 2
 'OG code'
 # dataset = 'DE'
 'Replaced by'
-dataset = 'rearranged_output_2015_2016'
+dataset = 'data_2015_2024'
 
 # Number of years (a year is 364 days) in the test dataset.
 years_test = 2
@@ -48,8 +48,8 @@ experiment_id = 1
 # begin_test_date = '27/12/2016'
 # end_test_date = '01/03/2017'
 'Replaced by'
-begin_test_date = '01/12/2016'
-end_test_date = '21/12/2016'
+begin_test_date = '27/12/2023'
+end_test_date = '01/03/2024'
 
 # Set up the paths for saving data (this are the defaults for the library)
 path_datasets_folder = os.path.join('.', 'datasets')

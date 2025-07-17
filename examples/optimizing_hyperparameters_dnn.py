@@ -15,9 +15,9 @@ nlayers = 2
 # Market under study. If it not one of the standard ones, the file name
 # has to be provided, where the file has to be a csv file
 'OG code'
-dataset = 'DE'
+# dataset = 'DE'
 'Replaced by'
-# dataset = 'rearranged_output_2015_2016'
+dataset = 'data_2015_2024'
 
 # Number of years (a year is 364 days) in the test dataset.
 'OG code'
@@ -51,7 +51,7 @@ experiment_id = 1
 'OG code'
 # max_evals = 1500
 'Replaced by'
-max_evals = 10
+max_evals = 1500
 
 path_datasets_folder = "./datasets/"
 path_hyperparameters_folder = "./experimental_files/"
